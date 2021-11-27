@@ -2,6 +2,6 @@
 My first neural network
 
 Here are some usefull link to start this project :
-https://l.messenger.com/l.php?u=https%3A%2F%2Fwww.datacamp.com%2Fcourses%2Fimage-processing-with-keras-in-python%3Futm_source%3Dadwords_ppc%26utm_medium%3Dcpc%26utm_campaignid%3D898687156%26utm_adgroupid%3D48303643819%26utm_device%3Dc%26utm_keyword%3D%26utm_matchtype%3Db%26utm_network%3Dg%26utm_adpostion%3D%26utm_creative%3D255798221920%26utm_targetid%3Daud-299261629574%253Adsa-498578056204%26utm_loc_interest_ms%3D%26utm_loc_physical_ms%3D9056504%26gclid%3DCj0KCQiAy4eNBhCaARIsAFDVtI01L2WzcdEAgU6tM9tNEXdHzAdJAuPyY1Vyl5JEnsf1iGGiTTEcYnQaAnbjEALw_wcB&h=AT0F9oHa4Nypb1LrxC18uG2pLrrcuwACRZ7Pt-UckGN7wFyJj10hQzypdfndtTIaO-YMfDQ8_TWoGMjueXQRoRUkYL7SfLGplYuDCtQFrL-bjBpwJuoZsVcy7U7NwfVtNRl88A
 
-https://keras.io/examples/vision/image_classification_from_scratch/
+- https://www.datacamp.com/courses/image-processing-with-keras-in-python?utm_source=adwords_ppc&utm_medium=cpc&utm_campaignid=898687156&utm_adgroupid=48303643819&utm_device=c&utm_keyword=&utm_matchtype=b&utm_network=g&utm_adpostion=&utm_creative=255798221920&utm_targetid=aud-299261629574%3Adsa-498578056204&utm_loc_interest_ms=&utm_loc_physical_ms=9056504&gclid=Cj0KCQiAy4eNBhCaARIsAFDVtI01L2WzcdEAgU6tM9tNEXdHzAdJAuPyY1Vyl5JEnsf1iGGiTTEcYnQaAnbjEALw_wcB
+- https://keras.io/examples/vision/image_classification_from_scratch/
