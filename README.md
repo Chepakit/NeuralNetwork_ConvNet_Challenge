@@ -1,5 +1,8 @@
-# NeuralNetwork_ConvNet_Challenge
-My first neural network
+# Convolutional neural network with Keras
+
+**Objectif** is to classify images of classes `bug`, `mouse` and  `screen`
+
+---
 
 Here are some usefull link to start this project :
 
