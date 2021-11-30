@@ -4,6 +4,8 @@ Ingénierie des modèles — ConvNet challenge
 Léonard Benedetti, 2020
 '''
 
+
+import random
 import numpy as np
 from tensorflow.keras.preprocessing import image_dataset_from_directory
 
@@ -47,7 +49,7 @@ def load_training_dataset(dataset_location='./dataset/',
         labels='inferred',
         label_mode='categorical',
         batch_size=batch_size,
-        shuffle=shuffle,
+        shuffle=shuffle if return_format == 'tf' else False,
         image_size=image_size,
         color_mode='rgb',
         interpolation='bilinear'
@@ -59,6 +61,13 @@ def load_training_dataset(dataset_location='./dataset/',
         X = np.concatenate([images.numpy() for images, labels in ds])
         y = np.concatenate([labels.numpy() for images, labels in ds])
         
+        if shuffle:
+            idx = list(range(len(X)))
+            random.shuffle(idx)
+            
+            X = X[idx]
+            y = y[idx]
+            
         return (X, y)
     else:
         raise ValueError('The `return_format` argument should be either `numpy` (NumPy arrays) or `tf` (TensorFlow dataset).')
